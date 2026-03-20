@@ -81,7 +81,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4 pt-8 opacity-0 animate-fade-in-up"
                  style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
               <Link href="/works">
-                <button className="group relative px-8 py-4 bg-gray-900 text-white text-sm font-medium overflow-hidden transition-all hover:bg-gray-800">
+                <button className="group relative px-8 py-4 bg-gray-500 text-gray-400 text-sm font-medium overflow-hidden transition-all hover:bg-gray-800">
                   <span className="relative z-10">View work</span>
                   <span className="absolute inset-0 bg-gray-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
                 </button>

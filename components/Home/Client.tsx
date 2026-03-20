@@ -103,18 +103,13 @@ export default function Clients() {
             interface that our users love."
           </blockquote>
           <div className="mt-6">
-            <p className="text-gray-900 font-medium">— Sarah Chen</p>
-            <p className="text-sm text-gray-400 font-mono">CTO, TechFlow</p>
+            <p className="text-gray-900 font-medium">— Mr Dickson</p>
+            <p className="text-sm text-gray-400 font-mono">Head, Business Intelligence & Data Management</p>
+            <p className="text-sm text-gray-400 font-mono">Seven-Up Bottling Company</p>
           </div>
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-16">
-          <button className="group inline-flex items-center gap-3 text-sm font-mono text-gray-400 hover:text-gray-900 transition-colors">
-            <span>View case studies</span>
-            <span className="w-8 h-[1px] bg-gray-300 group-hover:w-12 transition-all"></span>
-          </button>
-        </div>
+     
       </div>
 
       {/* Animation Styles */}

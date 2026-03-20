@@ -100,23 +100,14 @@ export default function AboutMe(): React.ReactElement {
                   Beyond Code
                 </h3>
                 <p className="text-gray-400 leading-relaxed">
-                  I care about people — users, team members, and collaborators.
-                  Great software isn't just about technology; it's about solving
+                  I care about users, team members, and collaborators.
+                  Great software isn't just about technology, it's about solving
                   real problems for real people. I bring this human-centered
                   approach to every project I work on.
                 </p>
               </div>
 
-              {/* Quote */}
-              <div className="pt-6">
-                <blockquote className="text-xl lg:text-2xl text-gray-300 font-light italic border-l-2 border-gray-200 pl-6">
-                  "Clean code isn't just about making computers happy — it's
-                  about making developers happy and users delighted."
-                </blockquote>
-                <p className="text-sm text-gray-400 mt-3 font-mono">
-                  — Kennedy
-                </p>
-              </div>
+             
 
               {/* CTA */}
               <div className="pt-8">

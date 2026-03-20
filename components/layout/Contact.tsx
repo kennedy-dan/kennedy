@@ -14,7 +14,7 @@ export default function Contact() {
 
         <section className="space-y-5">
           <div className="bg-[#F5F5F5] relative rounded-xl h-[120px] px-6 ">
-            <a href="mailto:abdullahihabeeb98@gmail.com">
+            <a href="mailto:kennooox@gmail.com">
               {" "}
               <div className="pt-8 z-30 relative">
                 <h1 className=" text-black [ lg:text-2xl text-base ] [ lg:font-normal font-medium ]">
@@ -24,7 +24,7 @@ export default function Contact() {
                   <p className="text-black-200 ">Link</p>
                   <span className="w-[6px] h-[6px] rounded-full bg-gray-400"></span>
 
-                  <a href="mailto:abdullahihabeeb98@gmail.com">
+                  <a href="mailto:kennooox@gmail.com">
                     <p className="text-green-100 ">Trigger a mail</p>
                   </a>
                 </div>
@@ -58,7 +58,7 @@ export default function Contact() {
           </div> */}
 
           {/*🚨 Whatsap  */}
-          <a href={`https://wa.me/+2348030638306`} target="_blank">
+          <a href={`https://wa.me/+2348180153708`} target="_blank">
             <div className="bg-[#F5F5F5] relative text-black rounded-xl h-[120px] px-6 ">
               <div className="pt-8 z-30 relative">
                 <h1 className=" [ lg:text-2xl text-base ] [ lg:font-normal font-medium ] ">

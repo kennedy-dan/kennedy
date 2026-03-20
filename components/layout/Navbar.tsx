@@ -58,12 +58,7 @@ export default function Navbar() {
       name: "Work",
       link: "/works",
     },
-    {
-      activeIcon: aAbout,
-      icon: about,
-      name: "About me",
-      link: "/about",
-    },
+
     {
       activeIcon: cv,
       icon: cv,

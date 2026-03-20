@@ -11,49 +11,46 @@ export default function FeaturedWork() {
 
   const projects = [
     {
-      _id: "geeftme-project",
+      _id: "project-1",
       name: "GeeftMe",
-      tag: "Social Wishlist & Gift Sharing Platform",
+      tag: "Fintech/Crowdfunding",
       role: "Front-End Developer",
       tech: ["React", "Next.js", "Tailwind", "Framer Motion"],
-      overview: "A social wishlist platform that simplifies gift-giving with real-time updates, social features, and seamless sharing capabilities.",
+  overview: "A crowdfunding platform that enables individuals and organizations to raise funds for personal causes, community projects, and charitable initiatives.",
       challenges: "Built responsive UI components, implemented real-time updates, optimized image loading for product galleries.",
-      outcome: "40% increase in user engagement, 25% faster page loads",
+      outcome: "40% increase in user engagement, better UI//UX experience",
       imagePreview: "/images/geeftmeproject.png",
       appLogo: "/images/geeftme.png",
       industry: ["React", "Next.js", "Tailwind"],
       liveUrl: "https://geeftme.com",
-      githubUrl: "https://github.com/yourusername/geeftme"
     },
     {
-      _id: "cloverleaf-project",
+      _id: "project-2",
       name: "Cloverleaf",
-      tag: "Team Collaboration Platform",
-      role: "Lead Front-End Developer",
-      tech: ["TypeScript", "Redux", "Styled Components", "Webpack"],
-      overview: "A comprehensive team collaboration tool with real-time messaging, task management, and performance analytics.",
+      tag: "Fintech",
+      role: "React Native Developer",
+      tech: ["TypeScript", "Redux", "React native"],
+    overview: "Cloverleaf is a React Native mobile application with robust security features and comprehensive financial service integration.",
       challenges: "Architected scalable component system, implemented real-time features, optimized for large data sets.",
       outcome: "50% reduction in bundle size, 99.9% test coverage",
       imagePreview: "/images/cloverleafproject.png",
       appLogo: "/images/cloverleaf.png",
       industry: ["TypeScript", "Redux", "Webpack"],
       liveUrl: "https://cloverleaf.com",
-      githubUrl: "https://github.com/yourusername/cloverleaf"
     },
     {
-      _id: "myartstock-project",
+      _id: "project-3",
       name: "MyArtStock",
       tag: "Art Marketplace Platform",
       role: "Front-End Developer",
-      tech: ["Next.js", "Context API", "CSS Modules", "Jest"],
+      tech: ["Next.js", "Redux", "Jest"],
       overview: "An online marketplace connecting artists with buyers, featuring virtual galleries and secure transactions.",
       challenges: "Built image-heavy gallery with lazy loading, implemented search filters, ensured mobile responsiveness.",
-      outcome: "60% faster image loading, 4.8/5 user rating",
+      outcome: "60% faster image loading",
       imagePreview: "/images/myartstockproject.png",
       appLogo: "/images/myartstock.webp",
       industry: ["Next.js", "CSS Modules", "Jest"],
       liveUrl: "https://myartstock.com",
-      githubUrl: "https://github.com/yourusername/myartstock"
     }
   ];
 
@@ -76,7 +73,7 @@ export default function FeaturedWork() {
             </h2>
             
             <p className="text-gray-500 max-w-md leading-relaxed">
-              Real-world applications built with modern front-end technologies,
+              Real world applications built with modern front end technologies,
               focusing on performance, accessibility, and user experience.
             </p>
           </div>
