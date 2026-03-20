@@ -30,7 +30,7 @@ export default function Hero() {
   return (
     <section className="" ref={targetRef}>
       {/* Hero Section with Minimalist Design */}
-      <section className="relative md:pt-40 w-full bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+      <section className="relative md:pt-40 pt-28 w-full bg-gradient-to-br from-gray-50 to-white overflow-hidden">
         
         {/* Subtle Geometric Pattern Overlay */}
         <div 

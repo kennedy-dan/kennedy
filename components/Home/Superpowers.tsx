@@ -104,7 +104,7 @@ export default function Expertise() {
                       {/* Description - Animated */}
                       <div className={`
                         overflow-hidden transition-all duration-500 ease-out
-                        ${isActive ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}
+                        ${isActive ? 'md:max-h-40  opacity-100' : 'max-h-0 opacity-0'}
                       `}>
                         <p className="text-gray-500 mb-4 leading-relaxed">
                           {writeUp}

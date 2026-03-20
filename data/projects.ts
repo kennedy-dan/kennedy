@@ -502,6 +502,10 @@ export const projectsData: ProjectDetails[] = [
   // 🚀 NEW ARCHITECTURE SECTION FOR DINE
   architecture: {
     overview: "Dine is a comprehensive restaurant management platform built with Next.js, featuring real-time order processing and multi-tenant architecture.",
+         image: {
+    url: "/images/dinearchitecture.png", // Replace with your actual image path
+    caption: "Dine System Architecture Diagram"
+  },
     stack: [
       {
         category: "Frontend",

@@ -190,7 +190,7 @@ export default function FeaturedWork() {
                         </button>
                       </Link>
                       
-                      {project.githubUrl && (
+                      {/* {project.githubUrl && (
                         <a
                           href={project.githubUrl}
                           target="_blank"
@@ -200,7 +200,7 @@ export default function FeaturedWork() {
                           <span>GitHub</span>
                           <span className="w-6 h-[1px] bg-gray-300 group-hover/link:w-10 transition-all" />
                         </a>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </div>
