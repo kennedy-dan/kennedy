@@ -11,7 +11,7 @@ export default function ReadCV() {
         <section className="space-y-5">
           <div className="bg-[#F5F5F5] relative rounded-xl h-[120px] px-6  ">
             <a
-              href="https://drive.google.com/file/d/1pJFKeSpeSVuFSB1IpmFj88erVb4TWOUK/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1LHLnJcdrTSZdfnU3WbJnfpNlxQkLMD7n/view?usp=drive_link"
               target="_blank"
               className="text-black"
             >
