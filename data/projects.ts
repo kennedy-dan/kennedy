@@ -9,7 +9,7 @@ export const projectsData: ProjectDetails[] = [
   roles: ["Frontend Developer"],
   client: "Geeftme.",
   industry: "Fintech/Crowdfunding",
-  duration: "6 months",
+  duration: "12 months",
   bgImage: {
     url: "/images/geeftmeproject.png"
   },
@@ -18,7 +18,7 @@ export const projectsData: ProjectDetails[] = [
     url: "/images/geeftmeanalytics.png"
   },
   overviewLinks: {
-    liveWebsite: "https://geeftme.com"
+    liveWebsite: "https://geeftme.com/beta/landing"
   },
   prototype: {
     url: "/images/fitness-prototype.jpg"
@@ -148,7 +148,7 @@ export const projectsData: ProjectDetails[] = [
   roles: ["Frontend Developer"],
   client: "MyArtStock",
   industry: "Art Marketplace / E-commerce",
-  duration: "8 months",
+  duration: "14 months",
   bgImage: {
     url: "/images/myartstockproject.png"
   },
@@ -293,7 +293,7 @@ export const projectsData: ProjectDetails[] = [
   roles: ["Frontend Developer"],
   client: "Cloverleaf",
   industry: "Fintech",
-  duration: "5 months",
+  duration: "10 months",
   bgImage: {
     url: "/images/cloverleafproject.png"
   },
@@ -302,7 +302,10 @@ export const projectsData: ProjectDetails[] = [
   overviewThumbnail: {
     url: "/images/cloveroverview.PNG"
   },
-  overviewLinks: {},
+  overviewLinks: {
+    appStore: "iOS version is currently in private beta testing via TestFlight",
+    googlePlay: "https://expo.dev/artifacts/eas/mMhUyCkXUQhi9QvbToSMQC.apk"
+  },
   prototype: {
     url: "/images/cloverleaf-prototype.jpg"
   },
@@ -438,7 +441,7 @@ export const projectsData: ProjectDetails[] = [
   roles: ["Frontend Developer"],
   client: "Dine",
   industry: "Hospitality / Food Ordering",
-  duration: "5 months",
+  duration: "11 months",
   bgImage: {
     url: "/images/dineproject.png"
   },
@@ -446,7 +449,9 @@ export const projectsData: ProjectDetails[] = [
   overviewThumbnail: {
     url: "/images/dinepreview.png"
   },
-  overviewLinks: {},
+  overviewLinks: {
+    liveWebsite: "https://dine.weout.life/"
+  },
   prototype: {
     url: "/images/dine-prototype.jpg"
   },

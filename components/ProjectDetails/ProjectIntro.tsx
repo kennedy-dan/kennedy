@@ -131,15 +131,10 @@ export default function ProjectIntro({ details }: ProjectIntroProps): React.Reac
                 </a>
               )}
               {appStore && (
-                <a
-                  href={appStore}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-3 text-sm font-mono text-gray-400 hover:text-gray-900 transition-colors"
-                >
-                  <span>App Store</span>
-                  <span className="w-6 h-[1px] bg-gray-300 group-hover:w-10 transition-all" />
-                </a>
+             <span className="group inline-flex items-center gap-3 text-sm font-mono text-gray-400 cursor-not-allowed">
+  <span>App Store (Private Beta)</span>
+  <span className="w-6 h-[1px] bg-gray-300" />
+</span>
               )}
               {googlePlay && (
                 <a
