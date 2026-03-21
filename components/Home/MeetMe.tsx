@@ -110,14 +110,14 @@ export default function AboutMe(): React.ReactElement {
              
 
               {/* CTA */}
-              <div className="pt-8">
+              {/* <div className="pt-8">
                 <Link href="/about">
                   <button className="group inline-flex items-center gap-4 text-sm font-mono text-gray-400 hover:text-gray-900 transition-colors">
                     <span>More about me</span>
                     <span className="w-8 h-[1px] bg-gray-300 group-hover:w-12 transition-all" />
                   </button>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
 
