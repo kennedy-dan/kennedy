@@ -54,7 +54,7 @@ export default function Expertise() {
             
             <p className="text-gray-500 max-w-md leading-relaxed">
               Specialized in modern web technologies and best practices 
-              to deliver high-performance, accessible applications.
+              to deliver high performance, accessible applications.
             </p>
           </div>
         </div>
