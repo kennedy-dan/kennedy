@@ -1,10 +1,19 @@
 "use client"
 import React, { useRef, useEffect, useState } from "react";
 import Link from "next/link";
+import { Modal } from "antd";
+import Image from "next/image";
+import contact from "@/public/svg/inactive-contact.svg";
+import Contact from "../layout/Contact";
 
 export default function Hero() {
   const targetRef = useRef(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [isContactOpen, setIsContactOpen] = useState(false);
+
+    const handleContactModal = () => {
+    setIsContactOpen((prevState) => !prevState);
+  };
 
   // Subtle parallax effect on the background
   useEffect(() => {
@@ -86,12 +95,10 @@ export default function Hero() {
                   <span className="absolute inset-0 bg-gray-700 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
                 </button>
               </Link>
-              
-              <Link href="/contact">
-                <button className="px-8 py-4 border border-gray-200 text-gray-600 text-sm font-medium hover:border-gray-300 hover:text-gray-900 transition-all bg-white/50 backdrop-blur-sm">
+
+                <button onClick={handleContactModal} className="px-8 py-4 border border-gray-200 text-gray-600 text-sm font-medium hover:border-gray-300 hover:text-gray-900 transition-all bg-white/50 backdrop-blur-sm">
                   Let's talk
                 </button>
-              </Link>
             </div>
 
             {/* Tech Stack Icons - Subtle Addition */}
@@ -135,6 +142,36 @@ export default function Hero() {
           animation: fade-in-up 0.6s ease-out forwards;
         }
       `}</style>
+
+            {/* 🚨 Contact Modal */}
+      <Modal
+        title={null}
+        closable={false}
+        open={isContactOpen}
+        onCancel={handleContactModal}
+        footer={false}
+        width={{
+          xs: "90%",
+          sm: "80%",
+          md: "70%",
+          lg: "60%",
+          xl: "50%",
+          xxl: "40%",
+        }}
+        style={{ top: 30 }}
+      >
+        <div className="flex items-center justify-between py-4 px-4 border-b border-gray-600">
+          <Image src={contact} alt="Contact icon" className="h-8" width={32} height={32} />
+          <button
+            onClick={handleContactModal}
+            aria-label="Close"
+            className="text-3xl cursor-pointer"
+          >
+            ×
+          </button>
+        </div>
+        <Contact />
+      </Modal>
     </section>
   );
 }
