@@ -172,7 +172,7 @@ const projectsData: ProjectData[] = [
     
     // Fields for ProjectDetails
     roles: ["Product Designer", "UX Researcher"],
-    industry: "Food Delivery",
+    industry: "Fintech",
     duration: "8 months",
     overview: "A mobile application for managing personal finances.",
     overviewLinks: {

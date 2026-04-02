@@ -192,10 +192,9 @@ export default function AboutMe(): React.ReactElement {
                 label="GitHub"
               />
               <SocialLink
-                href="www.linkedin.com/in/kennedy-daniel-9b9392346"
+                href="https://linkedin.com/in/kennedy-daniel-9b9392346"
                 label="LinkedIn"
               />
-              <SocialLink href="https://twitter.com/kennedy" label="Twitter" />
             </div>
           </div>
         </div>
