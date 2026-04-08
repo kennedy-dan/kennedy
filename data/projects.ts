@@ -304,7 +304,7 @@ export const projectsData: ProjectDetails[] = [
   },
   overviewLinks: {
     appStore: "iOS version is currently in private beta testing via TestFlight",
-    googlePlay: "https://expo.dev/artifacts/eas/mMhUyCkXUQhi9QvbToSMQC.apk"
+    googlePlay: "https://play.google.com/store/apps/details?id=com.app.cloverleaf&pcampaignid=web_share"
   },
   prototype: {
     url: "/images/cloverleaf-prototype.jpg"
