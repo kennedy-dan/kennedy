@@ -303,8 +303,8 @@ export const projectsData: ProjectDetails[] = [
     url: "/images/cloveroverview.PNG"
   },
   overviewLinks: {
-    appStore: "iOS version is currently in private beta testing via TestFlight",
-    googlePlay: "https://play.google.com/store/apps/details?id=com.app.cloverleaf&pcampaignid=web_share"
+    appStore: "https://apps.apple.com/ng/app/cloverleaf-microfinance-bank/id6758213869",
+    googlePlay: "https://play.google.com/store/apps/details?id=com.app.cloverleaf"
   },
   prototype: {
     url: "/images/cloverleaf-prototype.jpg"

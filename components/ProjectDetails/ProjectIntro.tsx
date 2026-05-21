@@ -9,7 +9,9 @@ interface ProjectIntroProps {
   details: ProjectDetails;
 }
 
-export default function ProjectIntro({ details }: ProjectIntroProps): React.ReactElement {
+export default function ProjectIntro({
+  details,
+}: ProjectIntroProps): React.ReactElement {
   const router = useRouter();
   const {
     name,
@@ -22,7 +24,7 @@ export default function ProjectIntro({ details }: ProjectIntroProps): React.Reac
     overviewThumbnail,
     overviewLinks,
     client,
-    _id
+    _id,
   } = details;
 
   const { appStore, googlePlay, liveWebsite } = overviewLinks;
@@ -51,25 +53,26 @@ export default function ProjectIntro({ details }: ProjectIntroProps): React.Reac
 
   return (
     <article className="space-y-20">
-      
       {/* Back Button */}
       <div className="fixed top-24 left-6 lg:left-12 z-40">
         <button
           onClick={() => router.back()}
           className="group flex items-center gap-3 px-4 py-2 bg-white/80 backdrop-blur-sm border border-gray-100 hover:border-gray-200 transition-all"
         >
-          <span className="text-xs font-mono text-gray-400 group-hover:text-gray-600">←</span>
-          <span className="text-xs font-mono text-gray-400 group-hover:text-gray-600">Back</span>
+          <span className="text-xs font-mono text-gray-400 group-hover:text-gray-600">
+            ←
+          </span>
+          <span className="text-xs font-mono text-gray-400 group-hover:text-gray-600">
+            Back
+          </span>
         </button>
       </div>
 
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-32">
         <div className="space-y-8">
-          <span className="text-sm font-mono text-gray-400 block">
-            {tag}
-          </span>
-          
+          <span className="text-sm font-mono text-gray-400 block">{tag}</span>
+
           <h1 className="project-title text-5xl lg:text-7xl font-light text-gray-900 max-w-4xl leading-tight">
             {name}
           </h1>
@@ -111,12 +114,10 @@ export default function ProjectIntro({ details }: ProjectIntroProps): React.Reac
               OVERVIEW
             </p>
           </div>
-          
+
           <div className="lg:col-span-9 space-y-8">
-            <p className="text-lg text-gray-600 leading-relaxed">
-              {overview}
-            </p>
-            
+            <p className="text-lg text-gray-600 leading-relaxed">{overview}</p>
+
             {/* Links */}
             <div className="flex flex-wrap gap-6">
               {liveWebsite && (
@@ -131,10 +132,15 @@ export default function ProjectIntro({ details }: ProjectIntroProps): React.Reac
                 </a>
               )}
               {appStore && (
-             <span className="group inline-flex items-center gap-3 text-sm font-mono text-gray-400 cursor-not-allowed">
-  <span>App Store (Private Beta)</span>
-  <span className="w-6 h-[1px] bg-gray-300" />
-</span>
+                  <a
+                  href={appStore}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-3 text-sm font-mono text-gray-400 hover:text-gray-900 transition-colors"
+                >
+                  <span>Apple Store</span>
+                  <span className="w-6 h-[1px] bg-gray-300 group-hover:w-10 transition-all" />
+                </a>
               )}
               {googlePlay && (
                 <a
